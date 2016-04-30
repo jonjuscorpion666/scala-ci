@@ -16,7 +16,6 @@ First, enable basic continuous integration through [Travis CI](https://travis-ci
 Under your [travis-ci.org profile](https://travis-ci.org/profile), find your 
 project and enable it:
 
-![Enable your project on travis-ci.org](https://raw.github.com/earldouglas/scala-ci/master/readme/travis-ci.png)
 
 Create a *.travis.yml* file in the root of your project:
 
@@ -59,8 +58,6 @@ stats.
 
 Head to the [add repo](http://coveralls.io/repos/new) section of Coveralls, find 
 your project, and enable it:
-
-![Enable your project on coveralls.io](https://raw.github.com/earldouglas/scala-ci/master/readme/coveralls.png)
 
 Append `script: "sbt coveralls"` to your Travis CI configuration file:
 
